@@ -1,0 +1,10 @@
+.recipes img {
+ max-height: 200px;
+ object-fit: cover;
+}
+.container .py-5{
+  font-family: Lobster;
+}
+.main-paragraph{
+ font-family: Josefin Sans;
+}

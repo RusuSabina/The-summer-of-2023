@@ -1,0 +1,45 @@
+.centered {
+ height: 50vh;
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+ 
+}
+
+
+.card-body img {
+ width: 150px;
+ height: 150px;
+ position: absolute;
+ object-fit: cover;
+ 
+}
+.card-title{
+ margin-top: 32%;
+ 
+}
+.people-container .col {
+ margin-top: 5rem;
+ 
+}
+.people-container .card {
+width: 102%;
+ height: 30rem;
+ max-height: 30rem;
+}
+.card-body .border-4{
+ background-color: #afe2dd;
+}
+.people-container p {
+ -webkit-box-orient: vertical;
+ display: -webkit-box;
+ -webkit-line-clamp: 15;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ white-space: normal;
+}
+.card-text {
+ font-family: Josefin Sans;
+}

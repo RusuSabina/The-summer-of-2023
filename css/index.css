@@ -1,0 +1,108 @@
+.summer2023{
+  /*background-image: url("/img/beach-summer.jpg");*/
+  background-repeat: repeat;
+    background-attachment:fixed;
+    background-position: center top;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+.centered {
+
+  height: 100vh;
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  right: 50%;
+      transform: translate(-20%, -50%);
+      font-weight: bold;
+      font-family: Josefin Sans;
+      font-size: 270%;
+    }
+
+  
+
+.navbar {
+
+  font-family: Lobster;
+
+}
+.navbar-toggler{
+  color: black;
+}
+
+
+nav .menu-icon{
+  position: relative;
+  border-radius: 0.45rem;
+  font-size: 1.6em;
+  padding: 0.45rem;
+  color: white;
+  display: none;
+}
+nav input[type="checkbox"] {
+  display: none;
+}
+nav a{
+  font-family: Josefin Sans;
+  font-size: small;
+
+  transition: color 200ms ease;
+}
+
+a.nav-link {
+  cursor: pointer;
+  color: black;
+}
+
+a.nav-link:hover {
+  color: white;
+}
+nav .navbar-brand{
+  color: black;
+}
+nav .navbar-brand:hover {
+  color: white;
+}
+.activities h2
+{
+ font-family: Lobster;
+}
+.badges{
+ font-family: Lobster;
+}
+
+.card-title{
+ font-family: Josefin Sans;
+ color: #eb6c46;
+ font-weight: bold;
+ 
+ 
+}
+.bar{
+ background-color: #eb6c46;
+ border-radius: 30px ;
+ height: 0.45rem;
+}
+.activities-container> :nth-child(2n) .bar {
+ background-color: #26dac9;
+}
+
+.col img {
+ width: 100%;
+ max-height: 300px;
+ object-fit: cover;
+}
+
+.gallery .p-2{
+ font-family: Lobster;
+}
+.gallery .p-3{
+ font-family: Josefin Sans;
+}
+
